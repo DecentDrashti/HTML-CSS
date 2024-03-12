@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    border: 1px solid black;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+#box{
+    height: 15%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: black;
+    animation-name: d1;
+    animation-duration: 4s;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes d1{
+    0%{
+        background-color: black;
+        top: 0%;
+        left: 0%;
+    }
+     25%{
+        background-color:rgb(77, 29, 143);
+        top: 0%;
+        left: 90%;
+    }
+    50%{
+        background-color:rgb(55, 118, 137);
+        top: 80%;
+        left: 0%;
+    }
+    75%{
+        background-color:rgb(95, 192, 80);
+        top: 80%;
+        left: 90%;
+    }
+    90%{
+        background-color:rgb(255, 184, 212);
+        top: 90%;
+        left: 0%;
+    }
+    100%{
+        background-color:rgb(220, 193, 86);
+        top: 90%;
+        left: 0%;
+    }
+}

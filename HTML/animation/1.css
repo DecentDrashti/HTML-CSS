@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    border: 1px solid black;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color:rgb(251, 202, 184);
+}
+/* .box1{
+  height: 40%;
+  width: 20%;
+  border-radius:100%;
+  background-color:orangered;
+  animation-name: d1;
+  animation-duration: 4s;
+  position: absolute;
+  
+}
+@keyframes d1{
+  0%{
+    top: 70%;
+    left: 80%;
+  }
+}
+ #box2{
+    height: 20%;
+    width: 10%;
+    border-radius:100%;
+    background-color:yellow;
+    animation-name: d2;
+    animation-duration: 4s;
+}
+@keyframes  d2{
+ 0%{
+    top: 100%;
+    left: 90%;
+ }
+}/* */
+#box{
+    height: 20%;
+    width: 10%;
+    border-radius: 100%;
+    background-color:beige;
+    animation-name: d3;
+    animation-duration: 4s;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+   
+}
+@keyframes d3{
+    0%{
+       top: 95%;
+       left:100%;
+     }
+     10%{
+        top: 85%;
+        left: 90%;
+     }
+     20%{
+        top: 80%;
+        left: 85%;
+     }
+} 

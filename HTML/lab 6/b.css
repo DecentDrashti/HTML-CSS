@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+ }
+ .main{
+   height: 100vh;
+   border: 1px solid black;
+   font-size: 20px;
+}
+.navbar{
+   height: 10%;	
+}
+.logo{
+   height: 100%;
+   width: 50%;
+   float: left;
+/*			border: 1px solid blue;*/
+}
+.button{
+   height: 100%;
+   width: 50%;
+   float: right;
+/*			border: 1px solid yellow;*/
+   text-align: center;
+   padding: 30px;
+   font-size: 25px;
+}
+a{
+   margin: 10px;
+   text-decoration: none;
+}
+.body{
+   height: 85%;
+   border: 1px solid blue;
+}
+.sidebar{
+   width: 25%;
+   height: 100%;
+   border: 2px solid darkred;
+   text-align: center;
+   background-color: red;
+   font-size: 25px;
+   float: left;
+}
+.sidebox{
+   height: 18%;
+   border: 2px solid darkred;
+   margin-bottom: 10px;
+}
+.side{
+   margin-bottom: 3px;
+   border: 1px solid darkred;
+}
+.footer{
+   background-color: blue;
+   color: white;
+   text-align: center;
+   height: 5%;
+   font-size: 30px;
+}
+.content{
+/*			border: 1px solid orange;*/
+   float: right;
+   width: 75%;
+   height: 100%;
+}
+.row{
+/*			border: 1px solid orange;*/
+   float: left;
+   width: 100%;
+}
+.col{
+   height: 100%;
+   width: 15%;
+   float: left;
+   margin:10px;
+}
+#image{
+   height: 125px;
+   width: 165px;
+   border: 3px solid black;
+}
+ /* #wrapper{
+    width:100%;
+    height: 100vh;
+    padding: 3px;
+ }
+  #header{
+   width: 100%;
+   height: 25%;
+   /background-color: lightgray;
+   /border: 1px solid red;
+   /line-height: 5px;
+   margin: 2%;
+  }
+   
+
+  #logo{
+   width:50%;
+   /padding:5%; 
+   / min-height:50px; 
+   height: 100%;
+   float: left;
+   /background-color:lightgray; 
+   /border: 1px solid blue; 
+  }
+
+  / .logo img{
+   height: 100%;
+   width: 100%;
+  } 
+
+  #linker{
+   width:50%;
+   height:100%;
+   float: right;
+   / align-items: center; 
+   /padding-top: 5%;
+   padding-bottom: 5%; /
+   background-color:1px solid green;
+  }
+  .main{
+   width: 100%;
+   height: 80%;
+   background-color:yellow;
+   border: 1px solid green;
+  }
+  
+  #left{
+   width: 20%;
+   min-height: 500px;
+   background-color: red;
+   font-size: medium;
+   float: left;
+  }
+  #right{
+   width:80%;
+   min-height: 500px;
+   background-color:ghostwhite;
+   float: right;
+  }
+  #footer{
+   background-color: blue;
+   width:100%;
+   height: 50px;
+   
+  }
+  .photos{
+   height: 25%;
+   width: 100%;
+  }
+  .img{
+   width: 50%;
+   min-height:50px;
+   /background-color: blue; /
+   padding-left:20px ;
+   float: left;
+  }
+  .same{
+   width: 100%;
+   height: 75px;
+   background-color: red;
+   text-align: center;
+  }
+  / #write{
+   width: 50%;
+   min-height:184px;
+   background-color: blue;
+   font-size: x-large;
+   color: white;
+   padding-right:20px;
+   float: right;
+  } / */
+
+ 

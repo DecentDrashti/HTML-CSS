@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+}
+.header{
+    width: 100%;
+    height: 28.5%;
+    /* border: 1px solid red; */
+}
+#logo{
+    height: 100%;
+    width: 30%;
+    float: left;
+    /* border: 1px solid blue; */
+}
+#buttons{
+    height: 25%;
+    width: 50%;
+    float: right;
+    font-size: larger;
+/*border: 1px solid yellow;*/
+    text-align: center;
+    padding-left: 95px;
+    padding-top: 75px;
+    /* font-size: 25px; */
+}
+.middle{
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 47%;
+    /* border:1px solid purple; */
+   background-image: url("../lab 6/d-9.jpg" );
+   background-repeat: no-repeat;
+   background-size: 1295px 300px;
+   /* background-attachment: fixed; */
+   color: rgb(178, 107, 119);
+   text-align: center;
+}
+h1{
+    padding-left: 45%;
+    padding-right: 10%;
+}
+blockquote{
+    padding-left: 48%;
+    color: rgb(229, 219, 237);
+    font-size: larger;
+    text-wrap:wrap;
+}
+.footer{
+    width: 100%;
+    height: 20.5%;
+    /* border: 1px solid purple; */
+}
+.box{
+    width: 22%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    height: 92%;
+    color: blue ;
+    text-align: center;
+    border: 1px solid red;
+    float: left;
+}

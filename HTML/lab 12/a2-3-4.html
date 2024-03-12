@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        p{
+            font-size: 20px;
+            color: cornflowerblue;
+        }
+        p::first-line{
+            font-size: 30px;
+            color: blueviolet;
+        }
+        p::first-letter{
+            font-size: 45px;
+            color: black;
+        }
+        ::selection{
+            background-color: yellow;
+            color: red;
+        }
+    </style>
+    </head>
+    <body>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> 
+            Aperiam velit sed sequi quibusdam vel fugit ratione similique id cupiditate necessitatibus commodi dolores veritatis quasi nostrum, eveniet assumenda incidunt maxime rem.
+        </p>
+
+    </body>
+    </html>

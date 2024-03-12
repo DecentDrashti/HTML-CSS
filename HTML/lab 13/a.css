@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:100vh;
+    /* border: 1px solid black; */
+}
+.header{
+    width:100%;
+    height:21%;
+    border-bottom: 2px solid rgb(13, 117, 13);
+    /* border: 1px solid grey; */
+    color: goldenrod;
+}
+.main{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width:100%;
+    height: 19%;
+    border: 1px solid greenyellow;
+}
+.introduction{
+    width:100%;
+    height:64%;
+    border: 1px solid wheat;
+}
+#logo{
+    height: 100%;
+    width: 50%;
+    float: left;
+    /* border: 1px solid blue; */
+}
+#logo img{
+    height: 80%;
+    width: 32%;
+}
+#buttons{
+    height: 35%;
+    width: 50%;
+    float: right;
+    font-size: larger;
+/*border: 1px solid yellow;*/
+    text-align: center;
+    padding-left: 95px;
+    /* padding-top: 75px; */
+    /* font-size: 25px; */
+}
+#pic{
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+#pic img{
+    padding: 1%;
+    height: 100%;
+    /* float: left; */
+    /* width:fit-content; */
+}
+#para{
+    text-wrap: wrap;
+    width: 75%;
+    /* float: left; */
+    height: 80%;
+    /* width: 70%; */
+    float: right;
+    font-size: x-large
+}
+input{
+    height:10%;
+}
+#left{
+    height: 64%;
+    width: 50%;
+    padding-left:1%;
+    font-size: large;
+    text-wrap: wrap;
+    float: left;
+}
+.right{
+    height: fit-content;
+    width: 50%;
+    padding-left:1%;
+    float: right;
+}
+.image{
+    width: 70%;
+    height:5%;
+    /* float: left; */
+}
+.image img{
+    width: 30%;
+    height: 5%;
+    float: left;
+}
+.content{
+    width: 30%;
+    padding-left: 5%;
+    padding-top: 0.5%;
+    height: 5%;
+    float: left;
+    font-size: small;
+    text-wrap: wrap;
+}
+
+
+

@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    border: 1px solid black;
+    height: 90vh;
+    width: 90%;
+    position: relative;
+}
+#mainbox{
+    width: 10%;
+    height: 20%;
+    background-color: rgb(0, 0, 0);
+    animation-name: DR;
+    animation-delay: 2s;
+    animation-duration: 4s;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    /* animation-direction: reverse;  */
+    /*to make the  last animation on or else will go to first position */
+
+}
+@keyframes DR{
+    0%{
+        background-color: black;
+        top: 0%;
+        left: 0%;
+    }
+     25%{
+        background-color:rgb(84,58,69);
+        top: 0%;
+        left: 90%;
+    }
+    50%{
+        background-color:rgb(151, 106, 125);
+        top: 80%;
+        left: 90%;
+    }
+    75%{
+        background-color:rgb(206, 138, 167);
+        top: 80%;
+        left: 0%;
+    }
+    100%{
+        background-color:rgb(255, 184, 212);
+        top: 0%;
+        left: 0%;
+    }
+
+
+}
+#box{
+    margin-top: 15%;
+    margin-left: 35%;
+    width: 20%;
+    height: 20%;
+    background-color: rgb(59, 2, 2);
+    animation-name: Dr;
+    animation-duration: 4s;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+     
+    /*to make the  last animation on or else will go to first position */
+
+}
+@keyframes Dr{
+    from{
+        background-color: rgb(59, 2, 2);
+    }
+    to{
+        background-color: deeppink;
+    }
+}

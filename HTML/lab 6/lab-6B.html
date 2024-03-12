@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab-6 Part B</title>
+
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		.main{
+			height: 100vh;
+			border: 1px solid black;
+			font-size: 20px;
+		}
+		.navbar{
+			height: 10%;	
+		}
+		.logo{
+			height: 100%;
+			width: 50%;
+			float: left;
+/*			border: 1px solid blue;*/
+		}
+		.button{
+			height: 100%;
+			width: 50%;
+			float: right;
+/*			border: 1px solid yellow;*/
+			text-align: center;
+			padding: 30px;
+			font-size: 25px;
+		}
+		a{
+			margin: 10px;
+			text-decoration: none;
+		}
+		.body{
+			height: 85%;
+			border: 1px solid blue;
+		}
+		.sidebar{
+			width: 25%;
+			height: 100%;
+			border: 2px solid darkred;
+			text-align: center;
+			background-color: red;
+			font-size: 25px;
+			float: left;
+		}
+		.sidebox{
+			height: 18%;
+			border: 2px solid darkred;
+			margin-bottom: 10px;
+		}
+		.side{
+			margin-bottom: 3px;
+			border: 1px solid darkred;
+		}
+		.footer{
+			background-color: blue;
+			color: white;
+			text-align: center;
+			height: 5%;
+			font-size: 30px;
+		}
+		.content{
+/*			border: 1px solid orange;*/
+			float: right;
+			width: 75%;
+			height: 100%;
+		}
+		.row{
+/*			border: 1px solid orange;*/
+			float: left;
+			width: 100%;
+		}
+		.col{
+			height: 100%;
+			width: 15%;
+			float: left;
+			margin:10px;
+		}
+		#image{
+			height: 125px;
+			width: 165px;
+			border: 3px solid black;
+		}
+		@media (max-width:450px){
+			.content{
+				width: 100%;
+			}
+			.sidebar{
+				width: 100%;
+			}
+			.button{
+				width: 100%;
+			}
+			.row{
+				width: 100%;
+			}
+			.class{
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="navbar">
+			<div class="logo">
+				<img src="./win.png" height="100%" />
+			</div>
+			<div class="button">
+				<a href="./home.html">Home</a>
+				<a href="./home.html">About</a>
+				<a href="./home.html">Contact</a>
+				<a href="./home.html">Login</a>
+			</div>
+		</div>
+		<div class="body">
+			<div class="sidebar">
+				<div class="side">
+				<b>Sidebar</b>
+				</div>
+				<div class="sidebox">
+					<b>Home</b>
+				</div>
+				<div class="sidebox">
+					<b>Placement</b>
+				</div>
+				<div class="sidebox">
+					<b>Recruitment</b>
+				</div>
+				<div class="sidebox">
+					<b>Faculty</b>
+				</div>
+				<div class="sidebox">
+					<b>News</b>
+				</div>
+			</div>
+			<div class="content">
+				<div class="row">
+					<div class="col">
+						<img src="./images1/sample1.jpg" id="image" />
+						Arjun bala<br>
+						BE,Mtech(CSE)
+					</div>
+					<div class="col">
+						<img src="./images1/sample2.jpg" id="image" />
+						Firoz Shreyasiya<br>
+						BE,ME
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<img src="./images1/sample3.jpg" id="image" />
+						Harsh kansagara<br>
+						L&T PVT LTD<br>
+						4.5 Lac
+					</div>
+					<div class="col">
+						<img src="./images1/sample4.jpg" id="image" />
+						Shyam Kantesariya<br>
+						Tata Consultancy Services<br>
+						3.2 Lac
+					</div>
+					<div class="col">
+						<img src="./images1/sample5.jpg" id="image" />
+						Jeet Dhamecha<br>
+						Reliance Industry-LTD<br>
+						5.0 Lac
+					</div>
+					<div class="col">
+						<img src="./images1/sample6.jpg" id="image" />
+						Harsh Maniar<br>
+						Reliance Industry-LTD<br>
+						5.0 Lac
+					</div>
+					<div class="col">
+						<img src="./images1/sample7.jpg" id="image" />
+						Anand Dabhi<br>
+						BSNL<br>
+						5.5 Lac
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			&#169Darshan University-Rajkot
+		</div>
+	</div>
+</body>
+</html>

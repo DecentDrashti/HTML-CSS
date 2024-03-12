@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid palevioletred;
+}
+.black{
+    /* height: 10%; */
+    width: 100%;
+    background-color: black;
+   
+}
+#header{
+    height: 15%;
+    width: 100%;
+    padding: 1.5%
+    /* color: white;
+    font-size: large;
+    text-align: center; */
+}
+div{
+    color: white;
+    font-size: large;
+    /* text-align: center; */
+    /* padding-right: 2%; */
+    padding-left: 5%;
+    float: left;
+    /* text-align: center; */
+}
+.main{
+    width:100%;
+    height: 80%;
+    /* border: 1px solid plum; */
+    background-color: rgb(218, 217, 217);
+}
+h1{
+    color: black;
+    text-align: center;
+}
+img{
+    float: left;
+    width: 40%;
+    height: 85%;
+    padding: 2%;
+}
+input{
+    background-color:orange;
+    border-radius: 2%;
+}
+#right{
+    float: right;
+    width: 30%;
+    line-height: 50px;
+    text-wrap: wrap;
+    color: black;
+    font-size: larger;
+    padding: 2.5%;
+}
+#footer{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: x-large;
+    padding: 2.3%
+
+} 

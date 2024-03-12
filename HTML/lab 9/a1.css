@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    border: 1px solid black;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#mainbox{
+    width: 20%;
+    height: 20%;
+    background-color: rgb(59, 2, 2);
+    animation-name: DR;
+    animation-duration: 4s;
+    position: absolute;
+    animation-fill-mode: forwards; 
+    /*to make the  last animation on or else will go to first position */
+
+}
+@keyframes DR{
+    from{
+        background-color: rgb(59, 2, 2);
+    }
+    to{
+        background-color: deeppink;
+    }
+}
